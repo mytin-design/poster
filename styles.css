@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: bolder;
+}
+html {
+    background-color: #eee;
+}
+
+.outline {
+    margin: 5pc auto;
+    padding: 1pc;
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+    background-color: #fff;
+    color: black;
+    width: 40%;
+    border-radius: .4pc;
+}
+
+.titleread {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5pc;
+}
+
+.titlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5pc 0 .5pc;
+}
+
+.ptitle {
+    color: #555;
+}
+
+.logox {
+    border-radius: 100%;
+    height: 5pc;
+    width: 5pc;
+    transform: skewX(-15deg);
+}
+
+
+
+.seccentral{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10pc;
+}
+
+
+
+.sectwoimg {
+    height: 12pc;
+    width: 15pc;
+    border-radius: 100%;
+    filter: contrast(78%);
+    filter: saturate(1.5);
+}
+
+.sectitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 1pc;
+    text-align: center;
+    z-index: 5;
+}
+
+
+.foodiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    padding: 1pc .5pc;
+}
+
+
+.rsvp {
+    font-weight: bolder;
+}
+
+.ptime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 5pc;
+    width: 5pc;
+    background-color: #000;
+    color: #fff;
+    transform: rotate(-35deg);
+}
+
+
+.foofoo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

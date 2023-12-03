@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Poster</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="">
+        <style>
+            html {
+                background: #222;
+            }
+            .poster {
+                margin: 200px auto;
+                border: 5px dotted;
+                border-radius: 50%;
+                text-align: center;
+                width: 150px;
+                height: 150px;
+                background: rgb(233, 175, 133);
+                padding: 5px;
+                animation-name: rotate;
+                animation-duration: 5s;
+                animation-fill-mode: backwards;
+                animation-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes rotate {
+                100% {
+
+                    
+                        transform: rotate(360deg);
+
+        
+                }
+            }
+
+
+
+            p {
+                text-transform: uppercase;
+                transform: skewY(23deg) rotate(-23deg);
+            }
+
+        </style>
+    </head>
+    <body>
+        <p style="color: white;">instructions: curve the text, which apparently needs use of svg and im really not in the mood, so i created a rotating thingy</p>
+        <div class="poster">
+            <p class="text">&centerdot;only&centerdot;</p>
+            <h1 class="dollar">&dollar;3.25</h1>
+            <p class="text">&centerdot; per drink&centerdot;</p>
+        </div>
+    </body>
+</html>
